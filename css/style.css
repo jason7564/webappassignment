@@ -1,0 +1,243 @@
+/* FONTS */
+/* Serif */
+@import url(https://fonts.googleapis.com/css?family=Slabo+27px); /* font-family: "Slabo 27px", serif; */
+/* Sans-Serif */
+@import url(https://fonts.googleapis.com/css?family=Roboto); /* font-family: "Roboto", sans-serif; */
+
+/* ANIMATION HANDLING */
+
+[data-role=page]{
+  position:fixed;
+  width: 100%;
+  height: 100%;
+  overflow: scroll;
+  background-color: #C1E1FF;
+}
+
+.inactive-page{
+  animation: slide-down 2s 1;
+  animation-fill-mode: forwards; 
+  z-index: 100;
+}
+
+@keyframes slide-down{
+  0%{
+    transform: translate3d(0, 0, 0);
+  }
+  100%{
+    transform: translate3d(0, 100%, 0);
+  }
+}
+
+/* GENERAL */
+
+* {
+ box-sizing: border-box;
+ margin: 0;
+}
+
+html,  body{
+  height: 100%;
+  min-height:100%;
+  overflow: hidden;
+  position: relative;
+  margin: 0px;
+}
+
+/* Navigation */
+
+#reviewIcon {
+    color: gold;
+}
+
+ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+#mainnav a{
+    display: inline-block;
+    color: #FFFFFF;
+    width: 32%;
+    padding: 14px;
+    text-decoration: none;
+    font-family: "Slabo 27px", serif;
+    font-size: 14px;
+}
+
+#mainnav {
+    width: 100%; 
+    background-color: #000000;
+}
+
+#mainnav ul {
+    width: 100%;
+}
+
+#mainnav li {
+    display: inline;
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+/* Home Page Main Content */
+
+#movieTitle {
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 20px;
+    font-family: "Slabo 27px", serif;
+}
+
+#movieDesc {
+    font-size: 22px;
+    padding: 20px;
+    font-family: "Slabo 27px", serif;
+    margin-bottom: 50px;
+}
+
+/* Home Page Main Content - END */
+
+/* Cast Page Main Content */
+
+#movieTitleCast {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    font-family: "Slabo 27px", serif;
+}
+
+#castHolder {
+    width: 100%;
+    display: inline;
+}
+
+#castHolder img {
+    width: 75%;
+    display: inline-block;
+}
+
+#castHolder h3 {
+    padding-bottom: 75px;
+    font-family: "Slabo 27px", serif;
+}
+
+#castHolder div {
+    width: 49%;
+    display: inline-block;
+    text-align: center;
+}
+
+#castHolder2 {
+    width: 100%;
+    display: inline;
+}
+
+#castHolder2 img {
+    width: 75%;
+    display: inline-block;
+}
+
+#castHolder2 h3 {
+    padding-bottom: 75px;
+    font-family: "Slabo 27px", serif;
+}
+
+#castHolder2 div {
+    width: 49%;
+    display: inline-block;
+    text-align: center;
+}
+
+#castHolder3 {
+    width: 100%;
+    display: inline;
+}
+
+#castHolder3 img {
+    width: 75%;
+    display: inline-block;
+}
+
+#castHolder3 div {
+    width: 49%;
+    display: inline-block;
+    text-align: center;
+}
+
+#castHolder3 h3 {
+    padding-bottom: 75px;
+    font-family: "Slabo 27px", serif;
+}
+
+#castHolder4 {
+    width: 100%;
+    display: inline;
+}
+
+#castHolder4 img {
+    width: 75%;
+    display: inline-block;
+}
+
+#castHolder4 div {
+    width: 49%;
+    display: inline-block;
+    text-align: center;
+}
+
+#castHolder4 h3 {
+    padding-bottom: 75px;
+    font-family: "Slabo 27px", serif;
+}
+
+/* Cast Page Main Content - END */
+
+/* Review Page Main Content */
+
+#movieTitleReview {
+    text-align: center;
+    margin-top: 25px;
+    font-family: "Slabo 27px", serif;
+}
+
+#reviewHolder {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 70px;
+}
+
+#reviewHolder h5 {
+    color: gold;
+    padding: 0px 0px 3px 0px;
+    margin-bottom: 0px;
+}
+
+#reviewHolder h3 {
+    margin-top: 40px;
+    font-family: "Slabo 27px", serif;
+}
+
+#reviewHolder h4 {
+    padding-bottom: 5px;
+    font-family: "Slabo 27px", serif;
+    font-size: 18px;
+}
+
+#reviewHolder p {
+    line-height: 25px;
+    margin-bottom: 25px;
+    font-family: "Slabo 27px", serif;
+}
+
+/* Review Page Main Content - END ★★★★★★★★★★ */
+
+/* RED CURTAIN */
+
+#curtain img {
+    width: 100%;
+    height: 2000px;
+}
+
+/* RED CURTAIN - END */
